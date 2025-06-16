@@ -1,4 +1,4 @@
-const apiKey = "AIzaSyBXsZUlCzX9qaysA-s5c4cX5g9zPqrvavc";
+const apiKey = "APIKEY_GEMINI";
 
 chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
     if (changeInfo.status === "complete") {
@@ -24,7 +24,7 @@ function checkWebsite(tabId, url) {
 
 function sendRequest(imageBase64, tabId) {
     const base64Data = imageBase64.split(",")[1];
-
+//Prompt dui dui :))
     const requestBody = {
         contents: [
             {
