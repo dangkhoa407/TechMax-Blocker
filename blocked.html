@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🛡️ Trang web bị chặn</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            background: linear-gradient(135deg, #141E30, #243B55);
+            color: white;
+            padding: 20px;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+            max-width: 500px;
+            width: 90%;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        h1 {
+            font-size: 30px;
+            margin-bottom: 15px;
+            color: #ff4e50;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: #f8d7da;
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            width: 100%;
+            margin: 10px 0;
+            padding: 12px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: all 0.3s ease-in-out;
+            border: 2px solid white;
+            cursor: pointer;
+        }
+
+        .btn-home {
+            background: linear-gradient(135deg, #ff4e50, #f9d423);
+            color: white;
+        }
+
+        .btn-home:hover {
+            background: white;
+            color: #ff4e50;
+        }
+
+        .btn-back {
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: white;
+        }
+
+        .btn-back:hover {
+            background: white;
+            color: #2575fc;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .footer a {
+            color: #f9d423;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Icon styles */
+        .icon {
+            width: 24px;
+            height: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🛡️ TRANG WEB BỊ CHẶN!</h1>
+        <p>Trang web này có nội dung không lành mạnh và đã bị chặn bởi TechMax.</p>
+
+        <!-- Developer Info -->
+        <a href="#" class="btn btn-home">
+            <img class="icon" src="https://cdn-icons-png.flaticon.com/512/219/219983.png" alt="Developer">
+            Developer: <strong>TechMax Team</strong>
+        </a>
+
+        <!-- TechMax Info -->
+        <a href="#" class="btn btn-back">
+            <img class="icon" src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="TechMax">
+            Powered by<strong>TechMax Security</strong>
+        </a>
+    </div>
+
+    <div class="footer">
+        © 2025 <a href="https://techmax.org">TechMax</a>. All Rights Reserved.
+    </div>
+</body>
+</html>
